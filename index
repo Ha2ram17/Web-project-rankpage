@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Jua&family=Noto+Serif+KR:wght@200..900&display=swap');
+</style>
+<meta charset="utf-8">
+<title>해람역사박물관</title>
+<link rel="stylesheet" href = "css/style.css?a">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous" defer="defer"></script>
+<script src="js/script.js?a" defer="defer"></script>
+</head>
+<body class="back" style="background-image:url('https://files.123freevectors.com/wp-content/original/131375-abstract-grey-and-white-low-poly-background-design-vector-graphic.jpg')">
+
+<div id = "page">
+	<header>
+		<div id = "Logo">
+			<img src ="imgs/logo1.png">
+		</div>
+		<div id ="top">
+			<ul class ="main-menu">
+				<li>
+					<a href="#" >인물소개</a>
+					<ul class="sub">
+						<li><a href="#">프로필</a></li>
+						<li><a href="#">취미</a></li>
+						<li><a href="#">세상에 남긴 명언</a></li>
+						<li><a href="#">인물상징</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" >게임생활</a>
+					<ul class="sub">
+						<li><a href="#">오버워치</a></li>
+						<li><a href="#">발로란트</a></li>
+						<li><a href="#">에이펙스</a></li>
+						<li><a href="#">마인크래프트</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" >소통해요</a>
+					<ul class="sub">
+						<li><a href="#">해람님의 공지사항</a></li>
+						<li><a href="#">자유게시판</a></li>
+						<li><a href="#">건의사항</a></li>
+						<li><a href="#">Q&A 게시판</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">로그인 메뉴</a>
+					<ul class="sub">
+						<li class="login"><a href="#">로그인</a></li>
+                        <li class="login"><a href="#">회원가입</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>	
+	<section>
+		<div class="cover">
+			<img src='imgs/loading.jpg'>
+			<div class="imgs">
+				<img src='imgs/main_4.jpg'>
+				<img src='imgs/main_3.jpg'>
+				<img src='imgs/main_5.jpg'>
+				<img src='imgs/main_1.png'>
+				<img src='imgs/main_6.jpg'>
+					<div class="welcome">
+						<h2><span>해람역사박물관에 오신 것을 환영합니다.</span></h2>
+					</div>
+			</div>
+		</div>
+	</section>
+	
+	<div class='clear'></div>
+	
+			<div class="notice">
+			<h2 class='complete'>달성현황</h2>
+			<table class="table">
+				<tr>
+					<th>내용</th>
+					<th>날짜</th>
+				</tr>
+				<tr>
+					<td><a href="#">발로란트 한국서버 불멸 랭킹 2900등대 달성.</a></td>
+					<td>2024</td>
+				</tr>
+				<tr>
+					<td><a href="#">발로란트 한국서버 불멸 랭킹 1100등대 달성.</a></td>
+					<td>2024</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 아시아서버 딜러 4계정 그랜드 마스터 달성.</a></td>
+					<td>2024</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 딜러 그랜드마스터 1 달성.</a></td>
+					<td>2023</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 딜러 그랜드마스터 3 달성.</a></td>
+					<td>2023</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 아시아서버 딜러 랭킹 228등 달성.</a></td>
+					<td>2023</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 딜러 그랜드마스터 5 달성.</a></td>
+					<td>2023</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 마스터 3651++ 달성.</a></td>
+					<td>2022</td>
+				</tr>
+				<tr>
+					<td><a href="#">오버워치 마스터 3501++ 달성.</a></td>
+					<td>2021</td>
+				</tr>
+			</table>
+		</div>
+
+</body>
+</html>
