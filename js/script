@@ -1,0 +1,33 @@
+$(".main-menu > li").mouseover(function(){
+		$(this).children(".sub").stop().slideDown();
+})
+$(".main-menu > li").mouseleave(function(){
+		$(this).children(".sub").stop().slideUp();
+})
+
+start();
+var imgs=5;
+var now=0;
+
+function start() {
+  $(".imgs>img").css({ "margin-top": "-2000px" });
+  var now = 0;
+  setInterval(function() {
+    slide();
+  }, 2000);
+}
+
+function slide() {
+  var next = (now + 1) % $(".imgs>img").length;
+  $(".imgs>img").eq(now).css({ "margin-top": "-2000px" });
+  $(".imgs>img").eq(next).css({ "margin-top": "0px" });
+  now = next;
+}
+
+
+function winOpen1(){
+	var win1 = window.open('login.html', 'child1', 'toolbar = no, location= no , status = no, menubar = no, scrollbars = no, width = 700, height = 700')
+}
+function winOpen2(){
+	var win2 = window.open('join.html', 'child2', 'toolbar = no, location= no , status = no, menubar = no, resizable = no, scrollbars = no, width = 1850, height = 1700')
+}
